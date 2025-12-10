@@ -94,6 +94,7 @@ button {
 .kubik {
     display: flex;
     gap: 50px;
+    padding-bottom: 80px;
 }
 
 .square {
@@ -106,4 +107,35 @@ button {
 .info {
     max-width: 250px;
     color: #1F2937;
+}
+
+.thor {
+    height: 420px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.retor {
+    max-width: 1174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+}
+
+
+
+.author {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 40px;
 }
