@@ -68,7 +68,7 @@ h1 {
     
 }
 
-button {
+.hbutton {
     background-color: #3882F6;
     padding: 7px 10px;
     color: #E5E7EB;
@@ -138,4 +138,46 @@ button {
     font-size: 18px;
     font-weight: bolder;
     padding-right: 40px;
+}
+
+.sign {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.abram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 1006px;
+    background-color: #3882F6;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.dbutton {
+    color: #E5E7EB;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    padding: 7px 10px;
+}
+
+p {
+    color: #E5E7EB;
+}
+
+.fp {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.sp {
+    margin-top: 4px;
 }
